@@ -314,3 +314,6 @@ test: ao_unique_index
 test: aocs_unique_index
 test: uao/ao_unique_index_vacuum_row
 test: uao/ao_unique_index_vacuum_column
+
+# FIXME: this test should be enabled when HashAgg is supported
+# test: spilling_hashagg
